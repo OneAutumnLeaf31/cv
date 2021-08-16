@@ -1,0 +1,162 @@
+<!DOCTYPE html> <!-- Always use this as it gives basic information required for all websites. Short cut html + enter -->
+
+<!--Self Closing tags for taking notes -->
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!--- Boiler plate on all websites. ALways add!-->
+  <title>Darran's Personal Site</title>
+</head>
+<!--Use the package "Beautify" to set up format of code. To tidy it up-->
+
+<body>
+
+  <table cellspacing="20">
+    <tr>
+      <td> <img src="Images/DarranWebbPicture.jpg" alt="Darran Profile Picture"></td>
+      <td>
+        <h1>Darran Webb</h1>
+        <p><em>Founder and CTO of <Strong>Webb Industries</Strong></em></p>
+        <p>I am a new iOS and web developer. I like <Strong><a href="https://en.wikipedia.org/wiki/Coffee">Coffee</a></Strong> and Music</p>
+      </td>
+    </tr>
+  </table>
+
+
+  <!--img = Image tag, src = Source, this is where you link your image. alt = Alternative text, the browser can not render the image then this text is displayed-->
+
+  <!-- <p></p> Paragraph  - Text in this tag get a new line and will be grouped together, close bracket to add all into the same Paragraph-->
+
+  <!-- To create italics on a site, use the <em></em> tag and not the <i></i> tag as this expresses more meaning.
+
+    The same goes for using <strong></strong> over <B></B> for bold -->
+
+
+
+  <!--<a></a> Is the anchor tag, anything between this will become a link depending on the next attribute used. EG - If href (HTML attribute) follows then you can add a hyperlink to a website-->
+
+  <hr>
+
+  <h3>Work Experience</h3>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Role</th>
+    </thead>
+    </tr>
+    <tbody>
+      <tr>
+        <td>2015-2017</td>
+        <td>Service Desk Analyst</td>
+      </tr>
+      <tr>
+        <td>2017-2019</td>
+        <td>Finance Projects Specialist</td>
+      </tr>
+    </tbody>
+    <tfoot>
+    </tfoot>
+  </table>
+
+  <!--<table></table> Can add either table rows <tr></tr> or table data <td></td> adding more table data tags allows you to keep adding columns into your table-->
+  <!-- <thead></thead> is used for the header for each table, they are by default formatted as bold text-->
+  <!-- <thead></thead>, <tbody></tbody> and <tfoot></tfoot> Are not always required in tables, but it is best practise so table format can be manipulated, such as locking the header while user scrolls etc -->
+  <!-- Cell Spacing - This attribute defines the size of the space between two cells in a percentage value or pixels.<table cellspacing="20"> add the cellspacing within the table tag and enter the percentage you would like to the table to be spaced out by -->
+
+  <hr>
+
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <thead>
+    </thead>
+    <tbody>
+      <tr>
+        <td>iOS Developement</td>
+        <td>⭐</td>
+        <td>Guitar</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Web Developement</td>
+        <td>⭐⭐⭐</td>
+        <td>HTML</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+
+
+    </tbody>
+  </table>
+
+  <!-- Emojis can be brought up by using the windows key + . -->
+
+  <p><a href="Hobbies.html">My Hobbies</a></p>
+
+  <p><a href="contact details.html">My Contact Details</a></p>
+
+  <!-- You can also use the href to link to another file within each project, you will need to add the exact name of the file path for this to work. This will also take you to a different web page-->
+
+  <hr>
+
+  <!-- <hr /> Adds Horizonal Rule/Line. You can add a size option "Size-"Number"" for more options. Add "Noshade" -->
+  <!-- <br> Line break when trying to add space between sections. Doesn't require a close bracket -->
+  <!-- <center> To center text, requires a close bracket-->
+
+  <h3><Strong>Education</Strong></h3>
+
+  <li>Perry Beeches School</li>
+  <li>Barr Beacon Language College</li>
+  <li>Sutton Coldfield College</li>
+  <li>Salford University</li>
+
+  <hr>
+
+  <!-- <ul></ul> Stands for Unordered List, typically rendered as a bullet list. Use <li></li> for each and every bullet point. -->
+
+  <!-- Nesting a list:
+  <ul>
+    <li>first item</li>
+    <li>second item
+    Look, the closing </li> tag is not placed here! -->
+  <!--   <ul>
+        <li>second item first subitem</li>
+        <li>second item second subitem
+        Same for the second nested unordered list!
+          <ul>
+            <li>second item second subitem first sub-subitem</li>
+            <li>second item second subitem second sub-subitem</li>
+            <li>second item second subitem third sub-subitem</li>
+          </ul>
+        </li> Closing </li> tag for the li that
+                    contains the third unordered list
+        <li>second item third subitem</li>
+      </ul>
+    Here is the closing </li> tag
+    </li>
+    <li>third item</li>
+  </ul> -->
+
+  <h3> My Hobbies</h3>
+  <ol>
+    <li><strong><a href="https://codeinstitute.net/">Coding</strong>
+      </a></li>
+    <li><strong><a href="https://en.wikipedia.org/wiki/Guitar">Playing Guitar</a></strong></li>
+    <li><strong><a href="https://www.youtube.com/">Recording Music</strong></a></li>
+  </ol>
+
+  <hr>
+  <!-- <ol></ol> - Ordered list, this will allow options at the start of your lists, such as numbers, roman numerals and the number order to start form.
+
+Ie   - Standard starting from 1 would be <ol></ol>
+     - Roman Numerals <ol type="i"></ol>
+     - a "Start attribute@ to start a list from a different number <ol start=4></ol>
+
+Note: A list can be nested within a list, just put the <ol></ol> tags within an <ol></ol> tag! -->
+
+
+</body>
+
+</html>
